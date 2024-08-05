@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <h1>Add Student</h1>
+        <table>
+            <tr>
+                <td><p>ID:</p></td>
+                <td>
+                    <input type="number" id="stdId" placeholder="id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Name:</p>
+                </td>
+                <td>
+                    <input type="text" id="stdName" placeholder="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Address:</p>
+                </td>
+                <td>
+                    <input type="text" id="stdAddress" placeholder="address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Age:</p>
+                </td>
+                <td>
+                    <input type="number" id="stdAge" placeholder="age">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" onclick="addStudent()" value="Add Student"></td>
+            </tr>
+        </table>
+
+        <table id="tblStudents" border="1"></table>
+
+        <script src="app.js"></script>
+    </body>
+</html>
